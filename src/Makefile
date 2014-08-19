@@ -6,7 +6,7 @@ objs = epanet.o input1.o input2.o input3.o rules.o output.o report.o \
 hdrs = hash.h text.h types.h funcs.h vars.h
 
 epanet2 : $(objs)
-	  cc -o epanet2 -lm $(objs) 
+	  cc -o epanet2 $(objs) -lm 
 
 epanet.o  : $(hdrs) toolkit.h enumstxt.h
 input1.o  : $(hdrs)
