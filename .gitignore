@@ -1,23 +1,21 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Exclude all files
+*
+
+# Git related stuff
+!.gitignore
+!.gitshrc
+
+# Source code
+!*.c
+!*.h
 
 # Libraries
-*.lib
-*.a
+!*.lib
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Misc
+!*.md
+!*.txt
+!*.def
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Directories
+!src/
