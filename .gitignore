@@ -13,6 +13,7 @@
 !*.lib
 
 # Misc
+!LICENSE
 !Makefile
 !*.md
 !*.txt
