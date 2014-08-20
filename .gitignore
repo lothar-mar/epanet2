@@ -21,3 +21,7 @@
 
 # Directories
 !src/
+!build/
+!Linux/
+
+
